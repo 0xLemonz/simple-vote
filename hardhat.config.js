@@ -2,7 +2,7 @@ require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
 module.exports = {
-  solidity: "0.8.0", // هماهنگ با نسخه قرارداد
+  solidity: "0.8.0", 
   networks: {
     sepolia: {
       url: process.env.ALCHEMY_SEPOLIA_URL || "",
@@ -13,6 +13,6 @@ module.exports = {
     }
   },
   mocha: {
-    timeout: 20000 // افزایش تایم‌اوت برای تست‌ها
+    timeout: 20000 
   }
 };
