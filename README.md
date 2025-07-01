@@ -13,6 +13,11 @@ A minimal decentralized voting system on Ethereum blockchain
 - **Testing**: Hardhat + Chai
 - **Network**: Ethereum Sepolia
 
+
+## 📄 Contract deployed
+- **Address**: https://sepolia.etherscan.io/address/0xa86Ed26A054B498003C917770c4b6b240Ed0D46B
+
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -40,5 +45,4 @@ Deploy:
 npx hardhat run scripts/deploy.js --network sepolia
 
 
-## 📄 Contract deployed
-- **Address**: https://sepolia.etherscan.io/address/0xa86Ed26A054B498003C917770c4b6b240Ed0D46B
+
