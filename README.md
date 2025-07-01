@@ -40,6 +40,7 @@ Deployment
 Create .env file:
 ALCHEMY_SEPOLIA_URL="your_alchemy_api_url"
 PRIVATE_KEY="your_wallet_private_key"
+ETHERSCAN_API_KEY="your-etherscan-key"
 
 Deploy:
 npx hardhat run scripts/deploy.js --network sepolia
