@@ -1,0 +1,21 @@
+{
+  "name": "simple-vote",
+  "version": "1.0.0",
+  "description": "Simple Voting Smart Contract - Alchemy University Final Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "coverage": "npx hardhat coverage",
+    "compile": "npx hardhat compile"
+  },
+  "author": "0xLemonz",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.22.0",
+    "dotenv": "^16.3.1",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "chai": "^4.3.7"
+  }
+}
